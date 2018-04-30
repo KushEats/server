@@ -1,21 +1,21 @@
 'use strict';
 
-
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const pg = require('pg');
 const superagent = require('superagent');
 const bodyparser = require('body-parser');
 
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 const CLIENT_URL = process.env.CLIENT_URL;
 // const TOKEN = process.env.TOKEN;
 
-// 'postgres://bfkzzjxkdsmntp:98fea21172b5715ed3961eb2f42018ecf0de4bd7535acfee7df13b8443cec364@ec2-107-21-103-146.compute-1.amazonaws.com:5432/d7oaju72tqtrpf'
 
-// const GOOGLE_API_KEY = 'AIzaSyA56qkwvFFLhqubk1AV7VPrTSh_DkoogtQ';
-// const API_KEY = process.env.GOOGLE_API_KEY;
+
+const API_KEY = process.env.GOOGLE_API_KEY;
 
 //Database Setup
 const client = new pg.Client(process.env.DATABASE_URL);
