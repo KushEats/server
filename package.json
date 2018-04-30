@@ -1,0 +1,28 @@
+{
+  "name": "kush-eats",
+  "version": "1.0.0",
+  "description": "weed & food",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KushEats/server.git"
+  },
+  "author": "Max, Khalil, Steph, Tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KushEats/server/issues"
+  },
+  "homepage": "https://github.com/KushEats/server#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "page": "^1.8.6",
+    "pg": "^7.4.1",
+    "superagent": "^3.8.3"
+  }
+}
