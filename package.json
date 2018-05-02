@@ -24,6 +24,7 @@
     "nodemon": "^1.17.3",
     "page": "^1.8.6",
     "pg": "^7.4.1",
-    "superagent": "^3.8.3"
+    "superagent": "^3.8.3",
+    "yelp-fusion": "^2.0.2"
   }
 }
